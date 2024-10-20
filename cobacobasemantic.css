@@ -1,0 +1,43 @@
+body {
+    font-family : arial, sans-serif ;
+    line-height : 1.6;
+    margin : 0;
+    padding : 0;
+}
+header, footer {
+    background-color : rgb(46, 38, 38);
+    color : white ;
+    text-align : center;
+    padding : 1em 0;
+}
+nav {
+    background-color : #f4f4f4;
+    padding : 1em;
+    border : 1px solid burlywood;
+}
+nav ul {
+    list-style : none;
+    padding : 0;
+}
+nav ul li {
+    display : inline;
+    margin-right : 10px;
+}
+li:hover {
+    background-color : black;
+    color : white;
+}
+li:hover a {
+    color : white;
+}
+article {
+    padding : 1em;
+    background-color : #863b3b;
+    color : white;
+    margin :10px;
+    padding : 1em;
+    height : 210px;
+}
+section {
+    margin-bottom : 20px;
+}
